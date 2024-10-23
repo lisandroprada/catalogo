@@ -1,0 +1,23 @@
+{
+  "labels": ["Ene", "Feb", "Mar", "Abr", "May", "Jun"],
+  "datasets": [
+    {
+      "label": "Tasa de Empleo",
+      "data": [42, 43, 42.5, 43.2, 43.8, 44],
+      "borderColor": "rgb(75, 192, 192)",
+      "backgroundColor": "rgba(75, 192, 192, 0.5)"
+    },
+    {
+      "label": "Inflación",
+      "data": [3.9, 4.1, 4.3, 4.0, 3.8, 3.7],
+      "borderColor": "rgb(255, 99, 132)",
+      "backgroundColor": "rgba(255, 99, 132, 0.5)"
+    },
+    {
+      "label": "PBI Provincial",
+      "data": [100, 102, 103, 105, 106, 108],
+      "borderColor": "rgb(53, 162, 235)",
+      "backgroundColor": "rgba(53, 162, 235, 0.5)"
+    }
+  ]
+}

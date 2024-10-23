@@ -1,0 +1,76 @@
+@import "./base.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Estilos globales para inputs, labels y títulos */
+input,
+textarea,
+select {
+  color: #1a1a1a; /* Color de texto oscuro para inputs */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280; /* Color de placeholder más oscuro */
+}
+
+label {
+  color: #1a1a1a; /* Color de texto oscuro para labels */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1a1a1a; /* Color de texto oscuro para títulos */
+}
+
+/* Modo oscuro */
+.dark input,
+.dark textarea,
+.dark select {
+  color: #f9fafb; /* Color de texto claro para inputs en modo oscuro */
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #9ca3af; /* Color de placeholder más claro en modo oscuro */
+}
+
+.dark label {
+  color: #f9fafb; /* Color de texto claro para labels en modo oscuro */
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: #f9fafb; /* Color de texto claro para títulos en modo oscuro */
+}
+
+#app {
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #41b883;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}

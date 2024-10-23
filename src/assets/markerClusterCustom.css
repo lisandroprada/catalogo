@@ -1,0 +1,18 @@
+.marker-cluster-small {
+  background-color: rgba(0, 123, 255, 0.6);
+  color: white;
+}
+
+.marker-cluster-medium {
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+}
+
+.marker-cluster-large {
+  background-color: rgba(0, 123, 255, 1);
+  color: white;
+}
+
+.marker-cluster div {
+  border: 2px solid white;
+}
